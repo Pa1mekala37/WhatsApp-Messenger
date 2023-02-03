@@ -1,6 +1,6 @@
 let userInputElement = document.getElementById("userInput")
 
-function linkOpen() {
+function message() {
     let userInputValue = userInputElement.value;
     if (userInputValue.length < 10) {
         alert("Enter Valid Mobile Number");
